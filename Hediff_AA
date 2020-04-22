@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+		<defName>AA_LowBleed</defName>
+		<description>This creature bleeds very little.</description>
+
+		<label>Bleed very little</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+
+		<stages>
+			<li>
+                                               <totalBleedFactor>0.15</totalBleedFactor>
+			</li>
+		</stages>
+
+</Defs>
